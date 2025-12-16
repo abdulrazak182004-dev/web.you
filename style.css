@@ -1,42 +1,74 @@
+/* Reset dasar */
 body {
-  font-family: Arial, sans-serif;
-  background: #f6f6f6;
   margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
+/* HEADER */
 header {
-  background: #007bff;
-  padding: 15px;
+  background-color: #f21dd6;
+  padding: 20px;
+  text-align: center;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+/* NAV BAR */
+nav {
+  background-color: #ff2bea;
+  padding: 10px 0;
+  text-align: center;
 }
 
 nav a {
   color: white;
-  margin-left: 15px;
   text-decoration: none;
-}
-
-nav a.active {
+  margin: 0 20px;
   font-weight: bold;
-  text-decoration: underline;
 }
 
-.hero {
-  text-align: center;
-  margin-top: 40px;
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
 }
 
-.hero img {
-  width: 150px;
-  height: 150px;
+/* HOME BOX */
+.box {
+  padding: 15px;
+}
+
+/* PROFILE (TENTANG) */
+.profile-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* TEKS IDENTITAS */
+.bio-text {
+  flex: 1;
+}
+
+/* FOTO PROFIL */
+.foto-profil {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #007bff;
+  border: 3px solid #ddd;
 }
 
-.content {
-  padding: 20px;
+/* FOOTER */
+footer {
+  background-color: #f21db6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
